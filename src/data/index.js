@@ -1,0 +1,548 @@
+import ProdukImage1 from "../assets/img/produk/rego-pig.png";
+import ProdukImage2 from "../assets/img/produk/rego-donkey.png";
+import ProdukImage3 from "../assets/img/produk/rego-elephant.png";
+
+import ProdukImage4 from "../assets/img/produk/rego-police.png";
+import ProdukImage5 from "../assets/img/produk/rego-captain.png";
+import ProdukImage6 from "../assets/img/produk/rego-astronout.png";
+
+import ProdukImage7 from "../assets/img/produk/rego-motor.png";
+import ProdukImage8 from "../assets/img/produk/rego-maintenance.png";
+import ProdukImage9 from "../assets/img/produk/rego-airport.png";
+
+import ProdukImage10 from "../assets/img/produk/rego-house1.png";
+import ProdukImage11 from "../assets/img/produk/rego-house2.png";
+import ProdukImage12 from "../assets/img/produk/rego-house3.png";
+
+import RekomendasiImage1 from "../assets/img/rego/rekomen1.png";
+import RekomendasiImage2 from "../assets/img/rego/rekomen2.png";
+import RekomendasiImage3 from "../assets/img/rego/rekomen3.png";
+
+import ComingSoonImage from "../assets/img/produk/comingsoon.png"
+
+import ArtikelImage1 from "../assets/img/rego/artikel1.png";
+import ArtikelImage2 from "../assets/img/rego/artikel2.png";
+import ArtikelImage3 from "../assets/img/rego/artikel3.png";
+
+import People1 from "../assets/img/testimonial/people-1.jpg";
+import People2 from "../assets/img/testimonial/people-2.jpg";
+import People3 from "../assets/img/testimonial/people-3.jpg";
+
+export const navLinks = [
+  {
+    id: 1,
+    path: "",
+    text: "Beranda",
+  },
+  {
+    id: 2,
+    path: "tentang",
+    text: "Tentang",
+  },
+  {
+    id: 3,
+    path: "produk",
+    text: "Produk",
+  },
+  {
+    id: 4,
+    path: "testimonial",
+    text: "Testimonial",
+  },
+  {
+    id: 5,
+    path: "faq",
+    text: "FAQ",
+  },
+];
+
+export const artikel = [
+  {
+    id: 1,
+    image: ArtikelImage1,
+    title: "Kecanduan Gadget Semakin Marak! 5 Cara Terbaik Menjaga Anak dari Kecanduan Gadget!",
+    button: "Selengkapnya",
+    delay: "200",
+  },
+  {
+    id: 2,
+    image: ArtikelImage2,
+    title: "Kecanduan Gadget Semakin Marak! 5 Cara Terbaik Menjaga Anak dari Kecanduan Gadget!",
+    button: "Selengkapnya",
+    delay: "500",
+  },
+  {
+    id: 3,
+    image: ArtikelImage3,
+    title: "Kecanduan Gadget Semakin Marak! 5 Cara Terbaik Menjaga Anak dari Kecanduan Gadget!",
+    button: "Selengkapnya",    
+    delay: "800",
+  },
+];
+
+export const semuaProduk = [
+  {
+    id: 1,
+    image: ProdukImage1,
+    star1: "fa-solid fa-star",
+    star2: "fa-solid fa-star",
+    star3: "fa-solid fa-star",
+    star4: "fa-solid fa-star",
+    star5: "fa-solid fa-star-half-stroke",
+    title: "Rego Pig",
+    category: "Animal",
+    price: "Rp. 300.000",
+    buy: "Beli Produk",
+    delay: "1300",
+  },
+  {
+    id: 2,
+    image: ProdukImage2,
+    star1: "fa-solid fa-star",
+    star2: "fa-solid fa-star",
+    star3: "fa-solid fa-star",
+    star4: "fa-solid fa-star",
+    star5: "fa-solid fa-star",
+    title: "Rego Donkey",
+    category: "Animal",
+    price: "Rp. 340.000",
+    buy: "Beli Produk",
+    delay: "1600",
+  },
+  {
+    id: 3,
+    image: ProdukImage3,
+    star1: "fa-solid fa-star",
+    star2: "fa-solid fa-star",
+    star3: "fa-solid fa-star",
+    star4: "fa-solid fa-star",
+    star5: "fa-solid fa-star",
+    title: "Rego Elephant",
+    category: "Animal",
+    price: "Rp. 280.000",
+    buy: "Beli Produk",
+    delay: "1900",
+  },
+  {
+    id: 4,
+    image: ProdukImage4,
+    star1: "fa-solid fa-star",
+    star2: "fa-solid fa-star",
+    star3: "fa-solid fa-star",
+    star4: "fa-solid fa-star",
+    star5: "fa-solid fa-star",
+    title: "Rego Police",
+    category: "Karakter",
+    price: "Rp. 420.000",
+    buy: "Beli Produk",
+    delay: "",
+  },
+  {
+    id: 5,
+    image: ProdukImage5,
+    star1: "fa-solid fa-star",
+    star2: "fa-solid fa-star",
+    star3: "fa-solid fa-star",
+    star4: "fa-solid fa-star",
+    star5: "fa-solid fa-star",
+    title: "Rego C America",
+    category: "Karakter",
+    price: "Rp. 380.000",
+    buy: "Beli Produk",
+    delay: "300",
+  },
+  {
+    id: 6,
+    image: ProdukImage6,
+    star1: "fa-solid fa-star",
+    star2: "fa-solid fa-star",
+    star3: "fa-solid fa-star",
+    star4: "fa-solid fa-star",
+    star5: "fa-solid fa-star",
+    title: "Rego Astronout",
+    category: "Karakter",
+    price: "Rp. 300.000",
+    buy: "Beli Produk",
+    delay: "600",
+  },
+  {
+    id: 7,
+    image: ProdukImage7,
+    star1: "fa-solid fa-star",
+    star2: "fa-solid fa-star",
+    star3: "fa-solid fa-star",
+    star4: "fa-solid fa-star",
+    star5: "fa-solid fa-star-half-stroke",
+    title: "Rego Motor",
+    category: "Kendaraan",
+    price: "Rp. 340.000",
+    buy: "Beli Produk",
+    delay: "",
+  },
+  {
+    id: 8,
+    image: ProdukImage8,
+    star1: "fa-solid fa-star",
+    star2: "fa-solid fa-star",
+    star3: "fa-solid fa-star",
+    star4: "fa-solid fa-star",
+    star5: "fa-solid fa-star-half-stroke",
+    title: "Rego Maintenance",
+    category: "Kendaraan",
+    price: "Rp. 400.000",
+    buy: "Beli Produk",
+    delay: "300",
+  },
+  {
+    id: 9,
+    image: ProdukImage9,
+    star1: "fa-solid fa-star",
+    star2: "fa-solid fa-star",
+    star3: "fa-solid fa-star",
+    star4: "fa-solid fa-star",
+    star5: "fa-solid fa-star-half-stroke",
+    title: "Rego Airport",
+    category: "Kendaraan",
+    price: "Rp. 320.000",
+    buy: "Beli Produk",
+    delay: "600",
+  },
+  {
+    id: 10,
+    image: ProdukImage10,
+    star1: "fa-solid fa-star",
+    star2: "fa-solid fa-star",
+    star3: "fa-solid fa-star",
+    star4: "fa-solid fa-star",
+    star5: "fa-solid fa-star-half-stroke",
+    title: "Rego House 1",
+    category: "Bangunan",
+    price: "Rp. 340.000",
+    buy: "Beli Produk",
+    delay: "",
+  },
+  {
+    id: 11,
+    image: ProdukImage11,
+    star1: "fa-solid fa-star",
+    star2: "fa-solid fa-star",
+    star3: "fa-solid fa-star",
+    star4: "fa-solid fa-star",
+    star5: "fa-solid fa-star-half-stroke",
+    title: "Rego House 2",
+    category: "Bangunan",
+    price: "Rp. 400.000",
+    buy: "Beli Produk",
+    delay: "300",
+  },
+  {
+    id: 12,
+    image: ProdukImage12,
+    star1: "fa-solid fa-star",
+    star2: "fa-solid fa-star",
+    star3: "fa-solid fa-star",
+    star4: "fa-solid fa-star",
+    star5: "fa-solid fa-star-half-stroke",
+    title: "Rego House 3",
+    category: "Bangunan",
+    price: "Rp. 320.000",
+    buy: "Beli Produk",
+    delay: "600",
+  },
+];
+
+//sementara
+export const produkRekomendasi = [
+  {
+    id: 1,
+    image: RekomendasiImage1,
+    star1: "fa-solid fa-star",
+    star2: "fa-solid fa-star",
+    star3: "fa-solid fa-star",
+    star4: "fa-solid fa-star",
+    star5: "fa-solid fa-star-half-stroke",
+    title: "Whoosh Train",
+    category: "Kategori",
+    price: "Rp. 300.000",
+    buy: "Beli Produk",
+    delay: "",
+  },
+  {
+    id: 2,
+    image: RekomendasiImage2,
+    star1: "fa-solid fa-star",
+    star2: "fa-solid fa-star",
+    star3: "fa-solid fa-star",
+    star4: "fa-solid fa-star",
+    star5: "fa-solid fa-star",
+    title: "Star Wars Karakter",
+    category: "Kategori",
+    price: "Rp. 340.000",
+    buy: "Beli Produk",
+    delay: "200",
+  },
+  {
+    id: 3,
+    image: RekomendasiImage3,
+    star1: "fa-solid fa-star",
+    star2: "fa-solid fa-star",
+    star3: "fa-solid fa-star",
+    star4: "fa-solid fa-star",
+    star5: "fa-solid fa-star",
+    title: "Las Vegas Houses",
+    category: "Kategori",
+    price: "Rp. 280.000",
+    buy: "Beli Produk",
+    delay: "400",
+  }
+];
+
+export const produkTerbaru = [
+  {
+    id: 1,
+    image: RekomendasiImage1,
+    star1: "fa-solid fa-star",
+    star2: "fa-solid fa-star",
+    star3: "fa-solid fa-star",
+    star4: "fa-solid fa-star",
+    star5: "fa-solid fa-star-half-stroke",
+    title: "Kereta Whoosh",
+    category: "Kendaraan",
+    price: "Rp. 300.000",
+    buy: "Detail",
+    delay: "",
+  },
+  {
+    id: 2,
+    image: RekomendasiImage2,
+    star1: "fa-solid fa-star",
+    star2: "fa-solid fa-star",
+    star3: "fa-solid fa-star",
+    star4: "fa-solid fa-star",
+    star5: "fa-solid fa-star",
+    title: "Star Wars Karakter",
+    category: "Karakter",
+    price: "Rp. 340.000",
+    buy: "Detail",
+    delay: "200",
+  },
+  {
+    id: 3,
+    image: RekomendasiImage3,
+    star1: "fa-solid fa-star",
+    star2: "fa-solid fa-star",
+    star3: "fa-solid fa-star",
+    star4: "fa-solid fa-star",
+    star5: "fa-solid fa-star",
+    title: "Rumah REGO",
+    category: "Bangunan",
+    price: "Rp. 280.000",
+    buy: "Detail",
+    delay: "400",
+  },
+  {
+    id: 4,
+    image: ComingSoonImage,
+    star1: "fa-solid fa-star",
+    star2: "fa-solid fa-star",
+    star3: "fa-solid fa-star",
+    star4: "fa-solid fa-star",
+    star5: "fa-solid fa-star",
+    title: "Produk 4",
+    category: "Kategori",
+    price: "Rp. 420.000",
+    buy: "Detail",
+    delay: "",
+  },
+  {
+    id: 5,
+    image: ComingSoonImage,
+    star1: "fa-solid fa-star",
+    star2: "fa-solid fa-star",
+    star3: "fa-solid fa-star",
+    star4: "fa-solid fa-star",
+    star5: "fa-solid fa-star",
+    title: "Produk 5",
+    category: "Kategori",
+    price: "Rp. 380.000",
+    buy: "Detail",
+    delay: "200",
+  },
+  {
+    id: 6,
+    image: ComingSoonImage,
+    star1: "fa-solid fa-star",
+    star2: "fa-solid fa-star",
+    star3: "fa-solid fa-star",
+    star4: "fa-solid fa-star",
+    star5: "fa-solid fa-star",
+    title: "Produk 6",
+    category: "Kategori",
+    price: "Rp. 300.000",
+    buy: "Detail",
+    delay: "400",
+  },
+];
+
+export const testimonial = [
+  {
+    id: 1,
+    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
+    image: People1,
+    name: "People 1",
+    skill: "UI UX Designer",
+  },
+  {
+    id: 2,
+    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
+    image: People2,
+    name: "People 2",
+    skill: "Flutter Developer",
+  },
+  {
+    id: 3,
+    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
+    image: People3,
+    name: "People 3",
+    skill: "Web Developer",
+  },
+  {
+    id: 4,
+    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
+    image: People1,
+    name: "People 4",
+    skill: "UI UX Designer",
+  },
+  {
+    id: 5,
+    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
+    image: People2,
+    name: "People 5",
+    skill: "Flutter Developer",
+  },
+  {
+    id: 6,
+    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
+    image: People3,
+    name: "People 6",
+    skill: "Web Developer",
+  },
+  {
+    id: 7,
+    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
+    image: People1,
+    name: "People 7",
+    skill: "UI UX Designer",
+  },
+  {
+    id: 8,
+    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
+    image: People2,
+    name: "People 8",
+    skill: "Flutter Developer",
+  },
+  {
+    id: 9,
+    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
+    image: People3,
+    name: "People 9",
+    skill: "Web Developer",
+  },
+];
+
+//data swiper testimonial di homepage
+export const dataSwiper = [
+  {
+    id: 1,
+    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
+    image: People2,
+    name: "Quodvultdeo Agra K. S.",
+    skill: "Abang Valorant",
+  },
+  {
+    id: 2,
+    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
+    image: People2,
+    name: "Gregorius Vino Carmelo",
+    skill: "Orang paling semangat",
+  },
+  {
+    id: 3,
+    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
+    image: People1,
+    name: "Chelsea Rut Monica Dj.H.",
+    skill: "Ratu Cost Structure",
+  },
+  {
+    id: 4,
+    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
+    image: People3,
+    name: "Marcellinus Daviano",
+    skill: "Ahhh benerr",
+  },
+  {
+    id: 5,
+    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
+    image: People2,
+    name: "Reinhart Barus",
+    skill: "Stuck Developer",
+  },
+  {
+    id: 6,
+    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
+    image: People3,
+    name: "Yermeyahu Ariel Minwary",
+    skill: "Full Stack Developer",
+  },
+];
+
+export const faq = [
+  {
+    id: 1,
+    eventKey: 0,
+    title: "Apa itu REGO?",
+    desc: "Rego adalah pionir dalam industri kreatif berkelanjutan, mengubah kertas bekas menjadi karya seni yang memukau melalui konstruksi dan kreasi mainan. Dengan komitmen terhadap inovasi ramah lingkungan dan apresiasi terhadap keunikan setiap ciptaan, kami memimpin dengan memberi contoh dalam menginspirasi dunia untuk merangkul keindahan, keberlanjutan, dan kreativitas.",
+  },
+  {
+    id: 2,
+    eventKey: 1,
+    title: "Apakah aman untuk dimainkan anak-anak?",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id estlaborum.",
+  },
+  {
+    id: 3,
+    eventKey: 2,
+    title: "Apakah bahan mainan tergolong aman untuk anak-anak?",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id estlaborum.",
+  },
+  {
+    id: 4,
+    eventKey: 3,
+    title: "Apakah semua produk memiliki fitur AR?",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id estlaborum.",
+  },
+  {
+    id: 5,
+    eventKey: 4,
+    title: "Apakah terdapat buku panduan untuk merakit?",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id estlaborum.",
+  },
+  {
+    id: 6,
+    eventKey: 5,
+    title: "Lorem Ipsum Dolor Sit Amet?",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id estlaborum.",
+  },
+  {
+    id: 7,
+    eventKey: 6,
+    title: "Lorem Ipsum Dolor Sit Amet?",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id estlaborum.",
+  },
+  {
+    id: 8,
+    eventKey: 7,
+    title: "Lorem Ipsum Dolor Sit Amet?",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id estlaborum.",
+  },
+];
